@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Social Media Posts</title>
+</head>
+<body>
+<h1>Social Media Posts</h1>
+{% if post %}
+<div>
+<h3>{{ post.brand_name }}</h3>
+<p>{{ post.content }}</p>
+</div>
+{% else %}
+<p>No posts generated yet.</p>
+{% endif %}
+</body>
+</html>
+
